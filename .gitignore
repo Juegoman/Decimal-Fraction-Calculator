@@ -3,3 +3,5 @@ css/bootstrap*
 js/bootstrap*
 js/jquery*
 fonts/
+node_modules/
+dist/

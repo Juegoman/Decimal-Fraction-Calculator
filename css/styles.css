@@ -1,0 +1,28 @@
+.darker {
+	background: #DDD;
+}
+.inputFt {
+	width: 10%;
+}
+.inputIn {
+	width: 20%;
+}
+.inputDec {
+	width: 31%
+}
+.justifyLeft {
+	float: right;
+	padding: 3px 5px;
+}
+.justifyCentered {
+	text-align: center; 
+}
+.disabled {
+	display: none;
+}
+.results {
+	padding: 8px;
+}
+.ref {
+	justify-content: space-between;
+}

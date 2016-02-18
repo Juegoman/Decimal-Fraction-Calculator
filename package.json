@@ -1,0 +1,25 @@
+{
+  "name": "decimal-fraction-calculator",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrig-cssmin": "~0.14.0"
+  },
+  "description": "decimal fraction calculator",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juegoman/Decimal-Fraction-Calculator.git"
+  },
+  "author": "juegoman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juegoman/Decimal-Fraction-Calculator/issues"
+  },
+  "homepage": "https://github.com/Juegoman/Decimal-Fraction-Calculator#readme"
+}

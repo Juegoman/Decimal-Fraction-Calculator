@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  	<!-- made by @juegoman -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +27,11 @@
 		<div class="panel panel-default">
 		  <div class="panel-body darker">
 		    <div class="panel panel-default" id="panelFtIn">
-			  <div class="panel-heading"><p>Find difference of two feet/inch values</p><p>put a number in feet, put either a number, or a fraction in inches</p><p>ex. 12 ft, 6 5/8 in</p></div>
+			  <div class="panel-heading">
+				<p>Find difference of two feet/inch values</p>
+				<p>put a number in feet, put either a number, or a fraction in inches</p>
+				<p>ex. 12 ft, 6 5/8 in</p>
+			  </div>
 			  <div class="panel-body">
 				<input class="inputFt" id="feet1" placeholder="ft"></input>
 				<input class="inputIn" id="inches1" placeholder="in"></input>
@@ -57,7 +62,25 @@
 
 			<div class="justifyCentered">
 				<button class="btn btn-primary" id="switch">Switch to <span id="unitsToSwitch">decimal feet</span></button>
+				<button class="btn btn-warning" id="clear">Clear</button>
 			</div>
+
+			<div class="justifyCentered" style="padding-top: 5px">
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Fraction precision: <span id="currPrecision">1/16</span>
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				    <li><a href="#" class="precision">No fractions</a></li>
+				    <li><a href="#" class="precision">1/2</a></li>
+				    <li><a href="#" class="precision">1/4</a></li>
+				    <li><a href="#" class="precision">1/8</a></li>
+				    <li><a href="#" class="precision">1/16</a></li>
+				  </ul>
+				</div>
+			</div>
+
 		  </div>
 		</div>
 		<div class="panel panel-default">
